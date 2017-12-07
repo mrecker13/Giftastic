@@ -1,6 +1,6 @@
 body {
-    background: rgb(145, 141, 138);
-    /* background-image: url('../images/Sports.png'); */
+    /* background: rgb(145, 141, 138); */
+    background-image: url('../images/Sports.png');
 }
 
 #gif-form {
@@ -15,6 +15,7 @@ label {
     background: rgb(73, 73, 77);
     color: white;
     border-radius: 4px;
+    margin-top: 5px;
 }
 
 .gif-button {
@@ -22,6 +23,7 @@ label {
     background: rgb(73, 73, 77);
     color: white;
     border-radius: 4px;
+    outline: none;
 }
 
 .gif {
