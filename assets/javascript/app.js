@@ -1,8 +1,8 @@
 var sportArray = [
   "Dallas Cowboys",
+  "Michael Jordan",
   "San Francisco Giants",
-  "Sacramento Kings",
-  "Everton FC"
+  "Baseball"
 ];
 
 $(document).ready(function(){
@@ -31,7 +31,7 @@ $(document).ready(function(){
         gifImage.attr("data-state", "still");
         gifDiv.append(p);
         gifDiv.append(gifImage);
-        $("#gif-here").addClass("row");
+        // $("#gif-here").addClass("row");
         $("#gif-here").prepend(gifDiv);
       }
       $(".gif").on("click", function() {
